@@ -1,0 +1,288 @@
+@font-face {
+	font-family: "polly";
+	src: url("polly.ttf");
+}
+body {
+	margin: 0;
+}
+html {
+	overflow-x: hidden;
+}
+.bg-main {
+	background: #3088f4;
+}
+.text-main {
+	color: #3088f4;
+}
+.main-text {
+	color: #3088f4;
+}
+.cfs-0 {
+	font-size: 7.2vh;
+}
+.cfs-05 {
+	font-size: 5.75vh;
+}
+.cfs-1 {
+	font-size: 5vh;
+}
+.cfs-2 {
+	font-size: 3.75vh;
+}
+.cfs-3 {
+	font-size: 2.75vh;
+}
+.cfs-4 {
+	font-size: 2.25vh;
+}
+.cmt-1 {
+	margin-top: 0.5vh;
+}
+.cmt-2 {
+	margin-top: 0.75vh;
+}
+.cmt-3 {
+	margin-top: 1.25vh;
+}
+.cmt-4 {
+	margin-top: 2vh;
+}
+.cmt-5 {
+	margin-top: 3vh;
+}
+.cmt-6 {
+	margin-top: 4.5vh;
+}
+.cmt-7 {
+	margin-top: 6vh;
+}
+.cmt-10 {
+	margin-top: 6vh;
+}
+.cms-5 {
+	margin-left: 1.3vh;
+}
+.cms-6 {
+	margin-left: 2vh;
+}
+.cms-7 {
+	margin-left: 3.5vh;
+}
+.cms-10 {
+	margin-left: 10vh;
+}
+.cme-4 {
+	margin-right: 0.6vh;
+}
+.cme-5 {
+	margin-right: 1.3vh;
+}
+.cme-6 {
+	margin-right: 2vh;
+}
+.ps-6 {
+	padding-left: 5vh;
+}
+.pt-3 {
+	padding-top: 2vh;
+}
+.cpx-3 {
+	padding-left: 1.5vh;
+	padding-right: 1.5vh;
+}
+.cpx-6 {
+	padding-left: 5vh;
+	padding-right: 5vh;
+}
+.cpy-2 {
+	padding-top: 0.75vh;
+	padding-bottom: 0.75vh;
+}
+.cpy-3 {
+	padding-top: 1.5vh;
+	padding-bottom: 1.5vh;
+}
+.cpy-4 {
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+.cpy-6 {
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+
+.starter {
+	height: 30vh;
+}
+.header {
+	background: rgba(255, 255, 255, 0.95);
+	height: 6.5vh;
+	-webkit-box-shadow: 0px 7px 10px 2px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 0px 7px 10px 2px rgba(34, 60, 80, 0.2);
+	box-shadow: 0px 7px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.logo {
+	background-image: url(images/logo.png);
+	background-size: 100% 100%;
+	height: 7vh;
+	width: 17vh;
+}
+.donate {
+	background-image: url(images/donate.png);
+	background-size: 100% 100%;
+	height: 4vh;
+	width: 4vh;
+	transition: 0.25s;
+}
+.user {
+	background-image: url(images/user.png);
+	background-size: 100% 100%;
+	height: 4vh;
+	width: 4vh;
+	transition: 0.25s;
+}
+.reg-btn {
+	border-color: #3088f4;
+	border-width: 0.3vh;
+	border-radius: 1.5vh;
+	border-style: solid;
+	background: transparent;
+	color: #3088f4;
+	height: 4vh;
+	transition: 0.25s;
+}
+.reg-btn:hover {
+	background: #3088f4;
+	color: white;
+}
+.menu {
+	background-image: url(images/menu.png);
+	background-size: 100% 100%;
+	height: 4vh;
+	width: 4vh;
+	transition: 0.25s;
+}
+.header-hover {
+	transition: 0.25s;
+	cursor: pointer;
+}
+.header-hover:hover {
+	background: #3088f4;
+}
+.header-hover:hover .main-text {
+	color: white;
+}
+.header-hover:active {
+	background: #64AFFF;
+}
+.header-hover:hover .menu {
+	transform: rotate(360deg);
+	background-image: url(images/down-arrow.png);
+	background-size: 100% 100%;
+}
+.header-hover:hover .user {
+	transform: rotate(360deg);
+	background-image: url(images/curse.png);
+	background-size: 100% 100%;
+}
+.header-hover:hover .donate {
+	transform: rotate(360deg);
+	background-image: url(images/curse.png);
+	background-size: 100% 100%;
+}
+.donatebox-img {
+	background-image: url(images/donate-box.jpg);
+	background-size: 100% 100%;
+	height: 15vh;
+	width: 25vh;
+}
+.donate-box {
+	height: 25vh;
+	width: 25vh;
+	transition: 0.25s;
+}
+.donate-box:hover {
+	cursor: pointer;
+	transform: scale(1.025);
+	-webkit-box-shadow: 1px 0px 25px 5px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 1px 0px 25px 5px rgba(34, 60, 80, 0.2);
+	box-shadow: 1px 0px 25px 5px rgba(34, 60, 80, 0.2);
+}
+.intern-box {
+	height: 25vh;
+	width: 25vh;
+	transition: 0.25s;
+}
+.internbox-img {
+	background-image: url(images/internships.jpg);
+	background-size: 100% 100%;
+	height: 15vh;
+	width: 25vh;
+}
+.intern-box:hover {
+	cursor: pointer;
+	transform: scale(1.025);
+	-webkit-box-shadow: 1px 0px 25px 5px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 1px 0px 25px 5px rgba(34, 60, 80, 0.2);
+	box-shadow: 1px 0px 25px 5px rgba(34, 60, 80, 0.2);
+}
+.events-box {
+	height: 25vh;
+	width: 25vh;
+	transition: 0.25s;
+}
+.eventsbox-img {
+	background-image: url(images/events.jpg);
+	background-size: 100% 100%;
+	height: 15vh;
+	width: 25vh;
+}
+.events-box:hover {
+	cursor: pointer;
+	transform: scale(1.025);
+	-webkit-box-shadow: 1px 0px 25px 5px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 1px 0px 25px 5px rgba(34, 60, 80, 0.2);
+	box-shadow: 1px 0px 25px 5px rgba(34, 60, 80, 0.2);
+}
+.card-box {
+	height: 25vh;
+	width: 29vh;
+	transition: 0.25s;
+}
+.cardbox-img {
+	background-image: url(images/card.png);
+	background-size: 100% 100%;
+	height: 15vh;
+	width: 25vh;
+}
+.card-box:hover {
+	cursor: pointer;
+	transform: scale(1.025);
+	-webkit-box-shadow: 1px 0px 25px 5px rgba(34, 60, 80, 0.2);
+	-moz-box-shadow: 1px 0px 25px 5px rgba(34, 60, 80, 0.2);
+	box-shadow: 1px 0px 25px 5px rgba(34, 60, 80, 0.2);
+}
+.reg-img {
+	background-image: url(images/carry.png);
+	background-size: 100% 100%;
+	height: 50vh;
+	width: 50vh;
+	position: fixed;
+}
+.input {
+	display: block;
+	border-radius: 0.5vh;
+	border: 1px solid black;
+}
+.log-img {
+	background-image: url(images/volunteers.png);
+	background-size: 100% 100%;
+	height: 50vh;
+	width: 50vh;
+	position: fixed;
+}
+.dark-window {
+	background: rgba(51, 51, 51, 0.95);
+	height: 6.5vh;
+}
